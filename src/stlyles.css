@@ -6,7 +6,7 @@ body {
   font-size: 15px;
 }
 .custom-bg {
-    background-color:#d8ecee ;
+    background-color:#CE9422 ;
 }
 
 .carousel {
@@ -78,6 +78,11 @@ display: inline;
   top: 0;
   left: 0;
 }
+
+.ep1500 {
+  margin-top: 200px;
+}
+
 
 /* Media Queries for Responsiveness */
 
