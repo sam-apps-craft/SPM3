@@ -1,12 +1,14 @@
 body {
-  background-color: #d3dff8;
+  background-color: #d6e1f8;
 }
+
+
 
 .card-title {
   font-size: 15px;
 }
 .custom-bg {
-    background-color:#CE9422 ;
+  background-color: #c7e2e6;
 }
 
 .carousel {
@@ -48,16 +50,15 @@ body {
   display: none;
 }
 
-
 .margintop {
   margin-top: 200px;
 }
 
 .industries {
   margin-top: 200px;
-background-color: #d8ecee;
-margin: 0;
-display: inline;
+  background-color: #d8ecee;
+  margin: 0;
+  display: inline;
 }
 
 .blog {
@@ -83,6 +84,27 @@ display: inline;
   margin-top: 200px;
 }
 
+.photo-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 20px;
+  margin: 20px;
+}
+
+.photo-grid .photo-container {
+  flex: 0 1 300px;
+  max-width: 300px;
+  padding: 10px;
+  border: 1px solid #0900ca;
+  margin: 10px;
+  text-align: center;
+}
+
+.photo-grid img {
+  width: 100%;
+  height: auto;
+}
 
 /* Media Queries for Responsiveness */
 
@@ -91,7 +113,8 @@ display: inline;
     max-height: 150px;
   }
 }
-@media (max-width: 768px) { /* Change the breakpoint according to your needs */
+@media (max-width: 768px) {
+  /* Change the breakpoint according to your needs */
   #navbar-logo {
     max-width: 100px;
     height: auto;
@@ -101,11 +124,8 @@ display: inline;
     margin-top: 100px;
   }
 }
-@media (max-width: 992px){
-
+@media (max-width: 992px) {
   .card-title {
-
     font-size: 11px;
   }
-
-
+}
